@@ -1,0 +1,372 @@
+/*!
+ * Start Bootstrap - Business Casual (http://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+body 
+{
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  background-repeat:no-repeat ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+
+
+
+background: rgba(242,246,248,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 12%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(242,246,248,1)), color-stop(12%, rgba(216,225,231,1)), color-stop(51%, rgba(181,198,208,1)), color-stop(100%, rgba(224,239,249,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 12%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 12%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 12%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+background: radial-gradient(ellipse at center, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 12%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9', GradientType=1 );
+
+
+
+  
+}
+
+h1, h2, h3, h4, h5, h6, .text-heading {
+  font-family: "Josefin Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 
+{
+  font-size: 4rem;
+}
+
+.tagline-upper 
+{
+  font-size: 3rem;
+  font-weight: 650;
+  line-height: 1;
+}
+
+.tagline-lower 
+{
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.text-expanded 
+{
+  letter-spacing: 2px;
+}
+
+.text-shadow 
+{
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-lg 
+{
+  font-size: 1.25rem;
+}
+
+.bg-faded 
+{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.bg-overlay 
+{
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+hr.divider 
+{
+  border-color: #292b2c;
+  max-width: 250px;
+}
+
+.map-container iframe 
+{
+  pointer-events: none;
+}
+
+.map-container iframe.clicked 
+{
+  pointer-events: auto;
+}
+
+
+.username {
+  width: 60%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+button[type=submit]{
+  margin: 0px 8%;
+}
+      
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.hide 
+{
+  display: none;
+}
+
+.boxsearch{
+  width: 70px;
+  height: 30px;
+  font-size: 12px;
+  border-radius: 10px;
+
+}
+
+.boxport{
+  margin-left: 50px;
+  width: 300px;
+  height: 90px;
+  border: 1px;
+  border-style:solid;
+  border-color: #A4A4A4;
+  background-color: #EFF2FB;
+}
+.boxcurrent{
+  margin-top: -70px;
+  margin-left: 320px;
+  width: 300px;
+  height: 90px;
+  border: 1px;
+  border-style:solid;
+  border-color: #A4A4A4;
+  background-color: #EFF2FB;
+  font-variant-position: center;
+}
+.boxcash{
+  margin-top: -70px;
+  margin-left:320px;
+  width: 330px;
+  height: 90px;
+  border: 1px;
+  border-style:solid;
+  border-color: #A4A4A4;
+  background-color: #EFF2FB;
+}
+
+.inputsearch {
+    width: 170px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 11px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.buttonsearch{
+  height: 28px;
+  width: 50px;
+  color: black;
+  text-align: center;
+}
+
+.boxideaname{
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+  background-color: #EFF2FB;
+}
+
+textarea[type=text]{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: none;
+  margin-left: 0px;
+  background-color: #EFF2FB;
+  border: 1px solid #ccc;
+}
+
+.showgraph
+{
+  width: 50%;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: none;
+  margin-left: 550px;
+  height: 150px;
+  margin-top: -190px;
+  position: fixed;
+}
+
+.boxdate {
+  width: 220px;
+  height: 65px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+  position: absolute;
+  right: 60px;
+  top: 0px;
+  background-color: #0099ff;
+
+}
+
+.buttonsetdate
+{
+  width: 8%;
+  height: 65px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  position: absolute;
+  right: -110px;
+  top: 0px;
+  font-size: 18px;
+}
+
+.boxinvest
+{
+  width: 30%;
+  height: 50px;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-left: 70px;
+  margin-top: -50px;
+}
+
+.buttontrade
+{
+  width: 10%;
+  height: 50px;
+  margin-left:0px;
+}
+
+.amounttrade
+{
+  width:343px;
+  height: 80px;
+  margin-left: 720px;
+  background-color: #F2F2F2;
+  margin-top: -35px;
+  border:solid 1px #e6e6e6;
+  margin-top: -40px;
+  position: absolute;
+}
+
+.inputtrade
+{
+  width:150px;
+  height: 40px;
+  right: 0px;
+  margin-top: -20px; 
+}
+
+.previeworder
+{
+  float: left;
+  margin-top: 0px;
+}
+
+.livesearch
+{
+  width: 500px;
+  display: inline-block;
+}
+
+.symbolbaht
+{
+  width: 10px;
+  height: 40px;
+  font-size: 16px;
+  margin-top: -20px;
+}
+.boxreturn
+{
+  margin-left: 100px;
+}
+
+.boxshowreturn
+{
+  float: bottom;
+  float: right;
+  border: solid 1px;
+  width: 200px;
+  height: 100px;
+  border-color: gray;
+}
+
+.deletestock
+{
+  background-color: red;
+}
+
+.boxcost
+{
+  float: left;
+}
+
+.boxreturn
+{
+  margin-top: -70px;
+  margin-left: 320px;
+  border-color: #A4A4A4;
+  background-color: #EFF2FB;
+  font-variant-position: center;
+
+}
+
+
+.boxrealtrade
+{
+  border: solid 1px;
+  border-color: gray;
+  width: 300px;
+  height: 120px;
+  float: right;
+}
+
+.boxtradepreview
+{
+  border: solid 1px;
+  width: 300px;
+  height: 120px;
+  border-color: gray;
+  float: left;
+}
+
+.search-box
+{
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+}
